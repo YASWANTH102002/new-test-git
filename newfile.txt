@@ -1,2 +1,22 @@
 Hi
 Welcome to Devops
+
+
+
+1.create an azure vm from central using ubuntu attach  addtional 8gb volume
+
+2.pull the ubuntu image from dockerhub and launch the web app in the port 8080 and the app should reachable globally
+
+3.deploy nginx app on k8s cluster and it should be available across the cluster on port 80 
+
+4.deploy a web app in k8s pod and create a replica set in any case load is going to increase on replica set increase the no of replica for the pod 
+
+5.we have an Ec2 instance in N.Virginia region where a web server is running create custom image of this server and launch a new server in ohio region
+
+6.using of ansible config management tool install httpd package and start make it enable of the service and copy fstab file into tmp folder on the remote server via playbook
+
+7.Deploy docker an instance and create a docker image store the docker image in ECR and achieve this image on your ECS cluster using the ECR image and build the sample java based app
+
+8.create an EC2 instance in mumbai region and security group where port 22 and 80 using terraform
+
+9.configure a cross azure load balancer and where my weba app is going to expose on port 80 and configure NAT role on the vm
